@@ -30,92 +30,92 @@
         <!-- About Section -->
         <div class="w3-container w3-padding-32" id="about">
             <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">About Me</h3>
-            
 
-                <b>The School Stuff:</b>
-                <br>
-                <ul>
-                    <li>
-                        UCLA
-                        <ul>
-                            <li>
-                                Master of Applied Economics, M.A.E.
-                            </li>
-                            <li>
-                                GPA: 3.65
-                            </li>
-                        </ul>
-                    </li>
 
-                    <li>
-                        UCSC
-                        <ul>
-                            <li>
-                                Bachelor of Science - Computer Science, B.S.
-                            </li>
-                            <li>
-                                Bachelor of Art - Economics, B.A.
-                            </li>
-                            <li>
-                                GPA: 3.14
-                            </li>
-                        </ul>
-                    </li>
+            <b>The School Stuff:</b>
+            <br>
+            <ul>
+                <li>
+                    UCLA
+                    <ul>
+                        <li>
+                            Master of Applied Economics, M.A.E.
+                        </li>
+                        <li>
+                            GPA: 3.65
+                        </li>
+                    </ul>
+                </li>
 
-                </ul>
-            
+                <li>
+                    UCSC
+                    <ul>
+                        <li>
+                            Bachelor of Science - Computer Science, B.S.
+                        </li>
+                        <li>
+                            Bachelor of Art - Economics, B.A.
+                        </li>
+                        <li>
+                            GPA: 3.14
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+
             <b>The Cool Stuff:</b>
-                <br>
-                <ul>
-                    <li>
-                        Star Wars Stuff
-                        <ul>
+            <br>
+            <ul>
+                <li>
+                    Star Wars Things
+                    <ul>
 
-                            <li>
-                                <a href="Do_Or_Do_Not.jpg"target="_blank">"Do or do not. There is no try."</a>
-                            </li>
-                            <li>
-                                <a href="Its_A_Trap.jpg"target="_blank">"It's a trap!"</a>
-                            </li>
-                            <li>
-                                <a href="Best_Star_Wars_Ep.jpg"target="_blank">"May the Force be with you."</a>
-                            </li>
-                            <li>
-                                <a href="Chewy.jpg"target="_blank">"RRWWWGG."</a>
-                            </li>
+                        <li>
+                            <a href="Do_Or_Do_Not.jpg" target="_blank">"Do or do not. There is no try."</a>
+                        </li>
+                        <li>
+                            <a href="Its_A_Trap.jpg" target="_blank">"It's a trap!"</a>
+                        </li>
+                        <li>
+                            <a href="Best_Star_Wars_Ep.jpg" target="_blank">"May the Force be with you."</a>
+                        </li>
+                        <li>
+                            <a href="Chewy.jpg" target="_blank">"RRWWWGG."</a>
+                        </li>
 
-                        </ul>
+                    </ul>
 
-                    </li>
-                    <li>
-                        Hobbies
-                        <ul>
-                            <li>
-                                Basketball 
-                            </li>
-                            <li>
-                                Video Games
-                            </li>
-                            <li>
-                                Magic: The Gathering
-                            </li>
-                            <li>
-                                Bouldering
-                            </li>
-                            <li>
-                                Cooking and Canning and DIY
-                            </li>
-                            <li>
-                                Painting
-                            </li>
-                            <li>
-                                Skating and Cruising
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+                </li>
+                <li>
+                    Hobbies
+                    <ul>
+                        <li>
+                            Basketball
+                        </li>
+                        <li>
+                            Video Games
+                        </li>
+                        <li>
+                            Magic: The Gathering
+                        </li>
+                        <li>
+                            Bouldering
+                        </li>
+                        <li>
+                            Cooking and Canning and DIY
+                        </li>
+                        <li>
+                            Painting
+                        </li>
+                        <li>
+                            Skating and Cruising
+                        </li>
+                    </ul>
+                </li>
+            </ul>
 
-            
+
         </div>
 
         <!-- Page content -->
@@ -180,16 +180,28 @@
             <!-- Contact Section -->
             <div class="w3-container w3-padding-32" id="contact">
                 <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">Contact</h3>
-                <p>Lets get in touch and talk about your and our next project.</p>
-                <form action="form.asp" target="_blank">
-                    <input class="w3-input" type="text" placeholder="Name" required name="Name">
-                    <input class="w3-input w3-section" type="text" placeholder="Email" required name="Email">
-                    <input class="w3-input w3-section" type="text" placeholder="Subject" required name="Subject">
-                    <input class="w3-input w3-section" type="text" placeholder="Comment" required name="Comment">
-                    <button class="w3-btn w3-section" type="submit">
-                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
-                    </button>
+                <p>Lets get in touch!</p>
+
+
+
+
+                <form METHOD=POST ACTION="mailto:lesterpi92@gmail.com" ENCTYPE="text/plain">
+                    Name:<br>
+                    <input TYPE="text" NAME="username">
+                    <br> Email:<br>
+                    <input TYPE="text" NAME="email">
+                    <br> Comments:<br>
+                    <textarea NAME="COMMENTS" ROWS="10" WRAP="hard">
+                    </textarea>
+                    <input NAME="redirect" TYPE="hidden" VALUE="index.html">
+                    <input NAME="NEXT_URL" TYPE="hidden" VALUE="index.html">
+                    <br>
+                    <input TYPE="submit" VALUE="Send">
+                    <input TYPE="reset" VALUE="Clear">
                 </form>
+
+
+
             </div>
 
             <!-- End page content -->
